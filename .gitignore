@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/platformio,unity
-# Edit at https://www.toptal.com/developers/gitignore?templates=platformio,unity
+# Created by https://www.toptal.com/developers/gitignore/api/platformio,unity,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=platformio,unity,visualstudiocode
 
 ### PlatformIO ###
 .pioenvs
@@ -78,4 +78,16 @@ InitTestScene*.unity.meta
 InitTestScene*.unity
 
 
-# End of https://www.toptal.com/developers/gitignore/api/platformio,unity
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.toptal.com/developers/gitignore/api/platformio,unity,visualstudiocode
